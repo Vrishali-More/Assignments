@@ -21,7 +21,7 @@ public int getBranchId() {
 	return BranchId;
 }
 public void setBranchId(int branchId) {
-	BranchId = BranchId;
+	BranchId = 123;
 }
 
  
