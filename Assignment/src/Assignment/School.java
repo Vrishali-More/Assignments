@@ -3,15 +3,20 @@ package Assignment;
 public class School extends University{
 
 	@Override
-	String name() {
+	void name() {
 		// TODO Auto-generated method stub
-		return null;
+		System.out.println("New Highschool");
 	}
 
 	@Override
 	int id() {
 		// TODO Auto-generated method stub
-		return 0011;
+		return 11;
+	}
+	@Override
+	int NoofStd() {
+		// TODO Auto-generated method stub
+		return 555;
 	}
 	@Override
 	void address() {
@@ -21,13 +26,18 @@ public class School extends University{
 	public static void main(String args[]) {
 		School sc = new School();// create a school object
 		sc.name();
-		sc.id();
 		sc.address();
+		System.out.println("School code : \t "+ sc.id());
+		System.out.println("School code : \t "+ sc.NoofStd());
+		
 		
 		
 			
 	}
 
+
+	
+	
 	
 
 }

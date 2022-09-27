@@ -3,16 +3,25 @@ package Assignment;
 public class Collage extends University {
 
 	@Override
-	String name() {
+	void name() {
 		// TODO Auto-generated method stub
-		return null;
+		System.out.println("New arts commerce And Science Collage");
 	}
+
+	
 
 	@Override
 	int id() {
 		// TODO Auto-generated method stub
-		return 0077;
+		return 77;
 	}
+
+	@Override
+	int NoofStd() {
+		// TODO Auto-generated method stub
+		return 888;
+	}
+
 
 	@Override
 	void address() {
@@ -22,13 +31,18 @@ public class Collage extends University {
 	public static void main(String args[]) {
 		Collage col = new Collage();// create a school object
 		col.name();
-		col.id();
 		col.address();
+	     System.out.println("COllage code: \t"+ col.id());
+	     System.out.println("COllage code: \t"+ col.NoofStd());
+		
 		
 		
 			
 	}
 
+
+
+		
 }
 
 
