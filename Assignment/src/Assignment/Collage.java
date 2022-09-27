@@ -8,7 +8,6 @@ public class Collage extends University {
 		System.out.println("New arts commerce And Science Collage");
 	}
 
-	
 
 	@Override
 	int id() {
