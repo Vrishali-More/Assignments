@@ -1,4 +1,5 @@
 package assignment2;
+// super keyword refer to parent class
 class Super{
 	String name="abc";
 }
