@@ -58,8 +58,8 @@ public class Arraylist {
 	
 	
 	// to find position of common element
-	
-	int position = list2.indexOf("Books");
+	String Books= list1.get(1);
+	int position = list2.indexOf(Books);
 	System.out.println("\n Position of duplicate element:"+position);
 
 	
