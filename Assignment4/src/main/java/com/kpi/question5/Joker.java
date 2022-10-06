@@ -63,6 +63,14 @@ public class Joker implements Joker1 {
 		System.out.println("Joker6 is dancing \t"+j6.dance);
 		System.out.println("Joker7 is dancing \t"+j7.dance);
 		System.out.println("Joker8 is dancing \t"+j8.dance);
+		System.out.println("Joker9 is dancing \t"+a1.dance);
+		System.out.println("Joker10 is dancing \t"+a2.dance);
+		System.out.println("Joker11 is dancing \t"+a3.dance);
+		System.out.println("Joker12 is dancing \t"+a4.dance);
+		System.out.println("Joker13 is dancing \t"+a5.dance);
+		System.out.println("Joker14 is dancing \t"+a6.dance);
+		System.out.println("Joker15 is dancing \t"+a7.dance);
+		System.out.println("Joker16 is dancing \t"+a8.dance);
 	
 		
 	}
